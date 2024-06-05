@@ -6,6 +6,8 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
+-- vim.opt.cursorline = true
+
 vim.opt.smartindent = true
 
 vim.opt.wrap = false
@@ -22,7 +24,7 @@ vim.opt.smartcase = true -- if you include mixed case in your search, assumes yo
 vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 8
---vim.opt.signcolumn = "yes"
+-- vim.opt.signcolumn = "yes"
 vim.opt.isfname:append("@-@")
 
 -- clipboard
