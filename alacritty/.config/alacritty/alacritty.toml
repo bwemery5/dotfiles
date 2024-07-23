@@ -3,7 +3,7 @@ import = [
 ]
 
 # import = [
-#     "~/.config/alacritty/tokyo-night.toml"
+#     "~/.config/alacritty/catppuccin-mocha.toml"
 # ]
 
 [env]
@@ -17,3 +17,4 @@ size = 12
 padding.x = 10
 padding.y = 10
 decorations = "Buttonless"
+opacity = 0.9
