@@ -12,7 +12,7 @@ export PATH=$PATH:/usr/local/go/bin
 HISTSIZE=10000
 SAVEHIST=10000
 HISTFILE=~/.cache/zsh/history
-
+setopt appendhistory
 setopt no_auto_remove_slash
 
 # Basic auto/tab complete:
@@ -52,5 +52,8 @@ zle -N zle-line-init
 echo -ne '\e[5 q' # Use beam shape cursor on startup.
 preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 # Load zsh-syntax-highlighting; should be last.
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+
