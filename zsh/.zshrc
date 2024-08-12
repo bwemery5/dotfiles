@@ -5,8 +5,10 @@ PS1="%B%{$fg[magenta]%}[%{$fg[green]%}%n%{$fg[green]%}@%{$fg[green]%}%M %{$fg[bl
 alias ls="ls --color"
 alias ll="ls -l --color"
 alias la="ls -la --color"
+alias ssha="ssh root@192.168.20.28"
+alias scpa="scp aed root@192.168.20.28:/usr/bin"
 
-export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/usr/local/go/bin:~/go/bin
 
 # History in cache directory:
 HISTSIZE=10000
