@@ -8,7 +8,7 @@ vim.opt.expandtab = true
 
 vim.opt.cursorline = true
 
-vim.opt.smartindent = true
+vim.opt.smartindent = false
 
 vim.opt.wrap = false
 
