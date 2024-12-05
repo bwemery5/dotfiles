@@ -113,7 +113,7 @@ alias scpa="scp aed root@192.168.20.28:/usr/bin"
 alias vim=nvim
 
 export PATH=$PATH:/usr/local/go/bin:~/go/bin
-
+export PATH=$PATH:/usr/local/go/bin
 VI_MODE_SET_CURSOR=true
 
 
