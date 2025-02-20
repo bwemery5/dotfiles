@@ -104,7 +104,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 
-
 alias ls="ls --color"
 alias ll="ls -l --color"
 alias la="ls -la --color"
@@ -112,9 +111,12 @@ alias ssha="ssh root@192.168.20.28"
 alias scpa="scp aed root@192.168.20.28:/usr/bin"
 alias vim=nvim
 
-export PATH=$PATH:/usr/local/go/bin:~/go/bin
-export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/usr/local/go/bin:~/go/bin:/home/bemery/.local/bin
+
 VI_MODE_SET_CURSOR=true
 
-
 setopt no_auto_remove_slash
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+eval "$(zoxide init --cmd cd zsh)"
+
