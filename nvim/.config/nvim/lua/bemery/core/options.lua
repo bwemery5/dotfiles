@@ -31,3 +31,5 @@ vim.opt.isfname:append("@-@")
 vim.opt.clipboard:append("unnamedplus") -- use system clipboard as default register
 
 vim.opt.updatetime = 50
+
+vim.g.snacks_animate = false
