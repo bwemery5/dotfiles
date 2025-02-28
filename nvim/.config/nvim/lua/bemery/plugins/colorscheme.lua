@@ -41,7 +41,8 @@ return {
                 treesitter = true,
                 treesitter_context = true,
                 which_key = true,
-            }
+            },
+            transparent_background = true
         })
         vim.cmd('colorscheme catppuccin')
     end,
