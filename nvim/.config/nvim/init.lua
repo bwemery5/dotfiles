@@ -1,2 +1,2 @@
-require("bemery.core")
-require("bemery.lazy")
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
