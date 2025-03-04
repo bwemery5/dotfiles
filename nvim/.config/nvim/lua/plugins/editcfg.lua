@@ -21,5 +21,11 @@ return {
                 ['<C-j>'] = { 'select_next', 'fallback_to_mappings' },
             },
         }
-    }
+    },
+    -- {
+    --     "catppuccin/nvim",
+    --     opts = {
+    --         transparent_background = true
+    --     }
+    -- }
 }
