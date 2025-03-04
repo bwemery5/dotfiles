@@ -28,6 +28,12 @@ return {
             inlay_hints = { enabled = false },
         },
     },
+    {
+        "nvim-treesitter/nvim-treesitter-context",
+        opts = {
+            max_lines = 5
+        }
+    },
     -- {
     --     "catppuccin/nvim",
     --     opts = {
