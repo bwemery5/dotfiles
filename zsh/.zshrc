@@ -116,6 +116,10 @@ export PATH=$PATH:/usr/local/go/bin:~/go/bin:/home/bemery/.local/bin
 VI_MODE_SET_CURSOR=true
 
 setopt no_auto_remove_slash
+setopt no_share_history
+unsetopt sharehistory
+unsetopt share_history
+setopt inc_append_history
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(zoxide init --cmd cd zsh)"
